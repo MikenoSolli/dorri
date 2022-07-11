@@ -58,7 +58,7 @@ while($row = $stmt->fetch(\PDO::FETCH_ASSOC)){
   //echo 'Wrong username or password';
    
   }*/
-        echo $row['page'];
+        echo $page;
 }
             
 ?>
