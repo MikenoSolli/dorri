@@ -18,12 +18,9 @@ if(mysqli_connect_errno()){
     
 
 while($row = $stmt->fetch(\PDO::FETCH_ASSOC)){
-        
-        
-           
-             
+         
             
- if ($name>== $row['username']&& 
+/* if ($name>== $row['username']&& 
      $pass == $row['password']) {
          echo"<script>
        function showMessage(message) {
@@ -58,9 +55,10 @@ while($row = $stmt->fetch(\PDO::FETCH_ASSOC)){
      echo $row['name'];
   }else {
     
-  echo 'Wrong username or password';
+  //echo 'Wrong username or password';
    
-  }
+  }*/
+        echo $row['name'];
 }
             
 ?>
