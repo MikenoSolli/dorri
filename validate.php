@@ -23,7 +23,7 @@ while($row = $stmt->fetch(\PDO::FETCH_ASSOC)){
            
              
             
-/*  if ($name>= $row['username']&& 
+ if ($name>== $row['username']&& 
      $pass == $row['password']) {
          echo"<script>
        function showMessage(message) {
@@ -60,9 +60,7 @@ while($row = $stmt->fetch(\PDO::FETCH_ASSOC)){
     
   echo 'Wrong username or password';
    
-  }*/
-         echo 'You have entered valid use name and password';
-         echo $row['name'];
+  }
 }
             
 ?>
